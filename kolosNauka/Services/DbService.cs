@@ -52,6 +52,9 @@ public class DbService(DatabaseContext ctx) : IDbService
             CreatedAt = request.CreatedAt,
             Stock = request.Stock
         };
+        
+        await  ctx.PCs.AddAsync(pc, cancellationToken);
+        await ctx.SaveChangesAsync(cancellationToken);
     }
 
     public async Task UpdatePcAsync(int id, PCRequest request, CancellationToken cancellationToken)

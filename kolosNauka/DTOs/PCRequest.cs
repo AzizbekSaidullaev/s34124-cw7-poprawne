@@ -2,7 +2,7 @@
 
 namespace kolosNauka.DTOs;
 
-public class PCRequest
+public record PCRequest
 {
     [Required, MaxLength(50)]
     public string Name { get; set; }

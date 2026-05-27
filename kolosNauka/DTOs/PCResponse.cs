@@ -1,6 +1,6 @@
 ﻿namespace kolosNauka.DTOs;
 
-public class PCResponse(
+public record PCResponse(
     int Id,
     string Name,
     float Weight,
