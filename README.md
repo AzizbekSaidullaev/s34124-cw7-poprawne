@@ -10,4 +10,4 @@ gitignore w C:\Uczelnia\APBD\kolosNauka nie dalej (dotnet new gitignore)
 
 <img width="998" height="230" alt="image" src="https://github.com/user-attachments/assets/51f65a33-c822-4163-96b1-7441b31c6d73" />
 
-dotnet ef migrations
+dotnet ef migrations add nazwa
